@@ -3,6 +3,7 @@ import java.util.Set;
 
 import libraries.ChildrenLibrary;
 import publications.KidBook;
+import publications.Publicatoins;
 
 public interface Librarian {
 
@@ -14,9 +15,9 @@ public interface Librarian {
 	
 	void sort();
 	
-	void addBook(String nameLibr,KidBook a);
+	void addBook(String nameLibr,Publicatoins a);
 	 
-	void delete(KidBook a);
+	void delete(Publicatoins a);
 
 	void printAll();
 	 

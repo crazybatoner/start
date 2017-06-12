@@ -1,5 +1,6 @@
 package libraries;
 
+import java.io.Serializable;
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.Set;
@@ -8,9 +9,14 @@ import java.util.TreeSet;
 import publications.KidBook;
 import publications.Publicatoins;
 
-public class ChildrenLibrary extends LinkedList<KidBook> {
+public class ChildrenLibrary extends Library implements Serializable {
 
-	private LinkedList<KidBook> KidBooks = new LinkedList();
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 5732499643509380472L;
+
+	private LinkedList<KidBook> KidBooks = new LinkedList<KidBook>();
 	private String librName;
 	private int a;
 
@@ -20,15 +26,15 @@ public class ChildrenLibrary extends LinkedList<KidBook> {
 	}
 
 	public ChildrenLibrary() {
-		;
+		
 	}
 
 	public LinkedList<KidBook> getKidBooks() {
 		return KidBooks;
 	}
 
-	public void addBooks(KidBook book) {
-		KidBooks.add(book);
+	public void addBooks(Publicatoins a2) {
+		KidBooks.add((KidBook) a2);
 	}
 
 	public String getLibrName() {

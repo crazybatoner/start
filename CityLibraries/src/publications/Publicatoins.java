@@ -1,6 +1,12 @@
 package publications;
 
-public class Publicatoins  {
+import java.io.Serializable;
+
+public class Publicatoins implements Serializable   {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6368400552163860421L;
 	private String name;
 	 Author author;
 	private int size;

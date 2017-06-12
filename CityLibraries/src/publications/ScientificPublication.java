@@ -8,4 +8,10 @@ public class ScientificPublication extends Publicatoins {
 		super(name,author,size);
 		this.id=id;
 	}
+
+
+
+
+
+
 }

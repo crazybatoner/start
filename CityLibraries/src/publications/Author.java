@@ -1,6 +1,12 @@
 package publications;
 
-public class Author {
+import java.io.Serializable;
+
+public class Author implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -8413811963373499784L;
 	private String name;
 	private String surname;
 	

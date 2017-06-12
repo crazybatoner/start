@@ -8,6 +8,7 @@ import java.util.TreeSet;
 import libraries.ChildrenLibrary;
 import publications.Author;
 import publications.KidBook;
+import publications.Publicatoins;
 
 public class ChildrenLibrarianImpl extends ChildrenLibrary implements Librarian {
 	Set<ChildrenLibrary> AllChildrenLibrary = new LinkedHashSet();
@@ -28,7 +29,7 @@ public class ChildrenLibrarianImpl extends ChildrenLibrary implements Librarian 
 	}
 
 	@Override
-	public void addBook(String nameLibr, KidBook a) {
+	public void addBook(String nameLibr, Publicatoins a) {
 		System.out.println("-Book added-" + "  " + a.getBookName());
 		for (Iterator<ChildrenLibrary> it = AllChildrenLibrary.iterator(); it.hasNext();) {
 			// if (it.next().getLibrName()==nameLibr) {
@@ -41,7 +42,7 @@ public class ChildrenLibrarianImpl extends ChildrenLibrary implements Librarian 
 	}
 
 	@Override
-	public void delete(KidBook a) {
+	public void delete(Publicatoins a) {
 		System.out.println("-Book removed-" + "  " + a.getBookName());
 		for (Iterator<ChildrenLibrary> it = AllChildrenLibrary.iterator(); it.hasNext();) {
 			for (Iterator<KidBook> its = it.next().getKidBooks().iterator(); its.hasNext();) {
