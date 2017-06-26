@@ -5,7 +5,7 @@
     <classes>
       <class name="by.htp.googletest.AppTest">
         <methods>
-          <include name="itAcademynNewTest"/>
+          <include name="quizfulAllDataTest"/>
           <include name="closeBrowser"/>
           <include name="initBrowser"/>
         </methods>

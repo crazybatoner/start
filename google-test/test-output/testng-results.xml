@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="55850" started-at="2017-06-21T15:01:45Z" finished-at="2017-06-21T15:02:41Z">
+  <suite name="Default suite" duration-ms="149705" started-at="2017-06-26T12:53:29Z" finished-at="2017-06-26T12:55:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="55850" started-at="2017-06-21T15:01:45Z" finished-at="2017-06-21T15:02:41Z">
+    <test name="Default test" duration-ms="149705" started-at="2017-06-26T12:53:29Z" finished-at="2017-06-26T12:55:59Z">
       <class name="by.htp.googletest.AppTest">
-        <test-method status="PASS" signature="initBrowser()[pri:0, instance:by.htp.googletest.AppTest@5c3bd550]" name="initBrowser" is-config="true" duration-ms="16030" started-at="2017-06-21T17:01:45Z" finished-at="2017-06-21T17:02:01Z">
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:by.htp.googletest.AppTest@5c3bd550]" name="initBrowser" is-config="true" duration-ms="25348" started-at="2017-06-26T14:53:29Z" finished-at="2017-06-26T14:53:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method status="PASS" signature="itAcademynNewTest()[pri:0, instance:by.htp.googletest.AppTest@5c3bd550]" name="itAcademynNewTest" duration-ms="39774" started-at="2017-06-21T17:02:01Z" finished-at="2017-06-21T17:02:41Z">
+        <test-method status="PASS" signature="quizfulAllDataTest()[pri:0, instance:by.htp.googletest.AppTest@5c3bd550]" name="quizfulAllDataTest" duration-ms="124224" started-at="2017-06-26T14:53:55Z" finished-at="2017-06-26T14:55:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- itAcademynNewTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:by.htp.googletest.AppTest@5c3bd550]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-06-21T17:02:41Z" finished-at="2017-06-21T17:02:41Z">
+        </test-method> <!-- quizfulAllDataTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:by.htp.googletest.AppTest@5c3bd550]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-06-26T14:55:59Z" finished-at="2017-06-26T14:55:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
